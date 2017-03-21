@@ -1951,7 +1951,7 @@ name := $(TARGET_PRODUCT)
 ifeq ($(TARGET_BUILD_TYPE),debug)
   name := $(name)_debug
 endif
-name := Nitrogen-OS-$(TARGET_DEVICE)-$(shell date +"%Y%m%d")
+name := Nitrogen-OS-CAF-$(TARGET_DEVICE)-$(shell date +"%Y%m%d")
 
 INTERNAL_OTA_PACKAGE_TARGET := $(PRODUCT_OUT)/$(name).zip
 
